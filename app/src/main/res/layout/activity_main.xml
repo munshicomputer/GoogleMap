@@ -16,9 +16,16 @@
         android:textStyle="bold"
         android:text="Google Map" />
 
-    <FrameLayout
-        android:id="@+id/frame_layout"
+    <TextView
+        android:id="@+id/tv_address"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="14sp"/>
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/frame_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
 
 </LinearLayout>
